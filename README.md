@@ -1,2 +1,2 @@
-# kddi_230905_01
+# kddi
 Created with CodeSandbox
