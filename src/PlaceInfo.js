@@ -3,8 +3,14 @@ import { Marker, InfoWindow } from "@react-google-maps/api";
 
 export default function PlaceInfo() {
   const places = [
-    { info: "info1", location: { lat: 43.048225, lng: 141.49701 } },
-    { info: "info2", location: { lat: 44.048225, lng: 142.49701 } }
+    {
+      info: "info1",
+      location: { lat: 27.216841151924207, lng: 128.67918386809181 }
+    },
+    {
+      info: "info2",
+      location: { lat: 28.216841151924207, lng: 129.67918386809181 }
+    }
   ];
 
   const [selected, setSelected] = useState(null);

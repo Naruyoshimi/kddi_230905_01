@@ -1,5 +1,7 @@
 import { GoogleMap, LoadScript, MarkerF } from "@react-google-maps/api";
 import "./App.css";
+import PlaceInfo from "./PlaceInfo";
+
 const container = {
   width: "75%",
   height: "500px"
@@ -21,6 +23,7 @@ function App() {
               position={position}
               label={"ファミリーマート 那覇店 在庫「◯」"}
             />
+            <PlaceInfo />
           </GoogleMap>
         </LoadScript>
       </div>
