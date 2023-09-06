@@ -1,6 +1,5 @@
 import { GoogleMap, LoadScript, MarkerF } from "@react-google-maps/api";
 import "./App.css";
-
 const container = {
   width: "75%",
   height: "500px"
